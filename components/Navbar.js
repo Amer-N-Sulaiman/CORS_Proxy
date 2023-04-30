@@ -8,6 +8,7 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Slide from '@mui/material/Slide';
+import Link from 'next/link'
 
 
 function HideOnScroll(props) {
@@ -42,9 +43,11 @@ const Navbar = () => {
             <HideOnScroll>
                 <AppBar>
                 <Toolbar>
-                    <Typography variant="h6" component="div">
-                        CORS Proxy
-                    </Typography>
+                    <Link href='\'>
+                      <Typography variant="h6" component="div">
+                          CORS Proxy
+                      </Typography>
+                    </Link>
                 </Toolbar>
                 </AppBar>
             </HideOnScroll>
