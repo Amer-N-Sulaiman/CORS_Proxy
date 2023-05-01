@@ -43,7 +43,7 @@ const Navbar = () => {
             <HideOnScroll>
                 <AppBar>
                 <Toolbar>
-                    <Link href='\'>
+                    <Link href='/'>
                       <Typography variant="h6" component="div">
                           CORS Proxy
                       </Typography>
